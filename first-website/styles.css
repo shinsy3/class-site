@@ -1,0 +1,38 @@
+body {
+  background-color: lavenderblush;
+  margin: 0px;
+}
+
+p {
+  color: rgb(100, 30, 90);
+  background: lightyellow;
+
+  border: 2px solid darkgreen;
+  padding: 40px;
+  padding-left: 10px;
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: red;
+  font-size: 90px;
+  margin-top: 0;
+}
+
+img {
+  /* max-width: 100%; */
+  width: 200px;
+  /* height: 400px */
+}
+
+.special {
+  color: blue;
+  background: lightpink;
+  font-size: 30px;
+}
+
+.small {
+    margin-left: 400px;
+    width: 220px;
+}
