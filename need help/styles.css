@@ -1,0 +1,59 @@
+body {
+background-color:rgb(252, 217, 111);
+margin:0px;
+}
+
+
+h1 {
+  position:relative;
+  top:400px;
+}
+
+.f1{
+  position:relative;
+    background:lightgreen;
+    border: 4px olive solid;
+    width:400px;
+    height:550px;
+    left:300px;
+}
+
+.f2 {
+  position:relative;
+    background:lightgreen;
+    border: 4px olive solid;
+    width:400px;
+    height:550px;
+    bottom: 558px;
+    left:1100px;
+}
+
+.f3 {
+  position:relative;
+    background:lightgreen;
+    border: 4px olive solid;
+    width:400px;
+    height:550px;
+    bottom: 600px;
+    left:12px;
+}
+
+.f4 {
+  position:relative;
+    background:lightgreen;
+    border: 4px olive solid;
+    width:400px;
+    height:550px;
+    bottom: 1100px;
+    left:700px;
+}
+
+.f5 {
+  position:relative;
+    background:lightgreen;
+    border: 4px olive solid;
+    width:400px;
+    height:550px;
+    bottom:1700px;
+    left:1350px;
+}
