@@ -1,16 +1,27 @@
 body {
   text-align: center;
-  background-color: royalblue;
-  color: white;
-  text-shadow: 3px 3px 3px #ababab;
+  background-color: lightyellow;
+  color: black;
 }
 
 h1 {
   text-align: center;
 }
 
-p1 {
+.p1 {
+  text-shadow: 3px 3px 3px #ababab;
   font-family: 'Tangerine', cursive;
   font-size: 70px
+}
+.img1 {
+  border: 1px solid;
+  width: 500px;
+  height: 350px;
 
+}
+
+
+
+ul {
+  padding: 0;
 }
