@@ -1,0 +1,82 @@
+body {
+background-color:rgb(232, 227, 187);
+margin:20px;
+font-family: 'M PLUS 1p', sans-serif;
+color:rgb(27, 26, 23);
+/* font-family: 'Spartan', sans-serif;  */
+/* font-family: 'Manrope', sans-serif; */
+}
+
+hr {
+  border: 0;
+   border-bottom: 1px dashed rgb(43, 40, 33);
+   background: rgb(241, 237, 208);
+}
+
+a {
+  color:rgb(43, 40, 33);
+  font-weight:00;
+  background-color: transparent;
+}
+
+.a1 {
+  color:rgb(43, 40, 33);
+  font-size:20px;
+  background-color:rgb(241, 237, 208);
+  border: 1px solid;
+  border-style: dotted;
+  border-radius:15px;
+  padding-left:8px;
+  padding-right:7px;
+  padding-top:3px;
+  padding-bottom:1px;
+  text-decoration: none;
+}
+
+.small-container {
+  background-color:rgb(241, 237, 208);
+  border: 1px solid;
+  border-style: dotted;
+  border-radius:15px;
+  padding-left:8px;
+  padding-right:7px;
+  padding-top:3px;
+  padding-bottom:1px;
+}
+
+.container {
+  background-color:rgb(241, 237, 208);
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:1px;
+  padding-bottom:1px;
+}
+
+.title {
+  font-size:20px;
+  font-weight:700;
+}
+
+.p1 {
+  font-size:12px;
+}
+
+.tn {
+  font-weight:500;
+}
+
+.takeaway {
+  font-weight:300;
+  margin-left:1em;
+  line-height:1.5em;
+}
+
+.note {
+  font-weight:500;
+  margin-left:1em
+}
+
+.comment {
+  font-weight:300;
+  margin-left:2em
+}

@@ -15,9 +15,9 @@ body {
 }
 
 p {
-  background-color: lightblue;
+  background-color: rgb(247, 197, 85);
   padding:30px;
-  border:10px solid thistle;
+  border:10px solid rgb(81, 145, 105);
   margin:30px;
   max-width:300px;
   height:400px;

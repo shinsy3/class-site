@@ -1,0 +1,23 @@
+* {
+  box-sizing:border-box;
+}
+
+.Flexbox {
+  background-color:rgb(227, 152, 53);
+  padding:20px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  align-items:center;
+  align-content:center;
+  /* align-items:flex-start; */
+  height:600px;
+  /* gap:20px 40px; */
+}
+
+.item {
+  background-color:rgb(231, 203, 140);
+  width:200px;
+  padding:10px;
+}
