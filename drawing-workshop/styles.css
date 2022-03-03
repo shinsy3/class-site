@@ -4,6 +4,7 @@
 
 body {
   margin:0;
+  font-size: 200;
 }
 
 p {
@@ -23,7 +24,6 @@ p {
   }
 
   .main {
-
     height:94vh;
     width:500px;
     display:flex;
@@ -58,7 +58,7 @@ p {
   background-color:rgb(244, 227, 140);
   border-radius: 100%;
   width:100%;
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(3px);
   }
 
   .bottom-ball {
@@ -74,7 +74,7 @@ p {
   background-color:rgb(244, 227, 140);
   border-radius: 100%;
   width:100%;
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(3px);
   }
 
   .top-string {
@@ -170,6 +170,14 @@ p {
   }
 
   .bottom1 {
+    font-family: 'Montserrat', sans-serif;
     background-color:rgb(250, 206, 132);
     padding: 0 5px;
+    font-size:20px;
+  }
+
+  .bottom2 {
+    background-color:rgb(250, 206, 132);
+    padding: 0 5px;
+    margin-top:3px;
   }
