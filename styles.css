@@ -1,78 +1,23 @@
 body {
-background-color:rgb(232, 227, 187);
-margin:20px;
-font-family: 'M PLUS 1p', sans-serif;
-color:rgb(27, 26, 23);
-/* font-family:'DM Sans', sans-serif; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-h1 {
-  font-family: 'M PLUS 1p', sans-serif;
-  font-size: 17px;
-  font-weight:600;
+div {
+  position: relative;
+  width: 510px;
+  height: 510px;
 }
 
-.title {
-  font-family: 'M PLUS 1p', sans-serif;
-  font-size: 16px;
-  font-weight:300;
-}
-
-a {
-  color:rgb(43, 40, 33);
-  font-weight:400;
-  background-color: transparent;
-  text-decoration: none;
-
-}
-
-details > summary {
-  list-style-type: '◜';
-}
-
-details {
-  margin-left:2em
-}
-
-summary {
-}
-
-form {
-  margin-left:1em
-}
-
-
-/* .top-dot{
-  font-weight:600;
-  letter-spacing:4em;
-  padding-left:33px;
-}
-.bottom-dot{
-  font-weight:600;
-  letter-spacing:4em;
-  margin-top:-20px;
-} */
-
-.a1 {
-  background-color:rgb(241, 237, 208);
-  border: 1px solid;
-  border-style: dotted;
-  border-radius:15px;
-  padding-left:7px;
-  padding-right:8px;
-  padding-top:2px;
-  padding-bottom:2px;
-  margin-left:1em;
-}
-
-.a2 {
-  background-color:rgb(241, 237, 208);
-  border: 1px solid;
-  border-style: dotted;
-  border-radius:15px;
-  padding-left:10px;
-  padding-right:1px;
-  padding-top:2px;
-  padding-bottom:2px;
-  margin-left:1em;
+div span {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height:700px;
+  top: auto;
+  background: rgb(62, 127, 186);
 }
