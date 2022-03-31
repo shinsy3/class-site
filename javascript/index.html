@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class='textbox draggable'>we are currently experimenting with the javascript...we are currently experimenting with the javascript...</div>
+
+<div class="triangle drag"></div>
+
+<button onclick="toggle()">Click me...</button>
+<!-- <div onclick="toggle()">Click me...</div> -->
+
+<div id="box" class="sidebar">
+  Hi
+</div>
+
+<div class="draggable">I can be dragged around</div>
+
+<canvas id="myCanvas" resize></canvas>
+
+<script src="jquery-3.6.0.min.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+  integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+  crossorigin="anonymous"></script>
+<script src="paper.js"></script>
+<script src="jquery.marquee.min.js"></script>
+<script type="text/paperscript" canvas="myCanvas" src="sketch.js"></script>
+<script src="functions.js"></script>
+
+<!-- package-atom live server -->
+
+
+<!-- <script>
+  function toggle() {
+    var box = document.getElementById("box");
+    box.classList.toggle("active");
+  }
+</script> -->
+
+</body>
+</html>
+
+<!--
+<div id="box">
+  the box
+</div>
+
+<script>
+  function toggle() {
+    var box = document.getElementById("box");
+    box.classList.("active");
+  }
+</script> -->
+
+<!-- <div id="box" class="active">
+  the box
+</div>
+
+<script>
+  function toggle() {
+    var box = document.getElementById("box");
+    box.classList.remove("active");
+  }
+</script> -->

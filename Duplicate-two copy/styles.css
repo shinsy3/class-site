@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight:400;
+  display:flex;
+  justify-content: center;
+}
+
+div {
+  display: block;
+}
+
+a {
+  color:rgb(0, 0, 0);
+  background-color:transparent;
+  text-decoration:none;
+  margin-right:180px;
+  margin-bottom:40px;
+}
+
+.main {
+  min-height:100vh;
+  width:20%;
+  padding:30px;
+  display:flex;
+  justify-content: center;
+  flex-direction:row;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.row {
+  background-color:white;
+  height:95vh;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  gap:20px;
+}
+
+.box {
+  width:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.r1 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r2 {
+  background-color:rgb(110, 194, 106);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r3 {
+  background-color:rgb(255, 176, 57);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r4 {
+  background-color:rgb(249, 152, 149);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r5 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r6 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r7 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r8 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r9 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r10 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r11 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r12 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+.r13 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+}
+
+@media screen and (max-width:600px) {
+  body {
+    font-size:200%;
+  }
+
+  .row {
+    height:auto;
+    width:100%;
+  }
+  .box {
+    height:90vh;
+    width:100%;
+  }
+}

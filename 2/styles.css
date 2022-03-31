@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Cousine', monospace; */
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 13px;
+  font-weight:300;
+}
+
+div {
+  display: block;
+}
+
+a {
+  color:rgb(0, 0, 0);
+  background-color:transparent;
+  text-decoration:none;
+  margin-right:170px;
+  margin-bottom:30px;
+}
+
+.main {
+  background-color:white;
+  /* min-height:100vh; */
+  width:100%;
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  /* text-align: center; */
+  gap:20px;
+}
+
+.row {
+  background-color:white;
+  /* width:80px; */
+  height:95vh;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  gap:20px;
+}
+
+.box {
+  width:270px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  border-radius:40%;
+  border:.5px solid rgb(52, 45, 34);
+
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.box:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.r0 {
+  background-color: rgb(255, 255, 255);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r1 {
+  background-color:rgb(250, 212, 50);
+  height:90px;
+
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r2 {
+  background-color: rgb(150, 203, 187);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r3 {
+  background-color: rgb(90, 147, 176);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+
+.r4 {
+  background-color: rgb(63, 117, 47);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r5 {
+  background-color: rgb(227, 184, 101);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+
+.r6 {
+  background-color: rgb(232, 149, 138);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r7 {
+  background-color: rgb(255, 211, 195);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r8 {
+  background-color: rgb(142, 167, 135);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+
+.r9 {
+  background-color: rgb(250, 161, 96);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+
+.r10 {
+  background-color: rgb(250, 241, 122);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r11 {
+  background-color: rgb(175, 137, 170);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r12 {
+  background-color: rgb(254, 181, 95);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+.r13 {
+  background-color: rgb(121, 180, 160);
+  height:90px;
+  transform: skew(5deg);
+  box-shadow:1px 1px 1px black;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    font-size:200%;
+  }
+  .row {
+    height:auto;
+    width:100%;
+  }
+  .box {
+    height:90vh;
+    width:100%;
+  }
+}
