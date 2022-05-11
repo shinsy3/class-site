@@ -19,6 +19,13 @@ img {
     margin-bottom:-90px;
 }
 
+p {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 25px;
+  position: absolute;
+  bottom: 40px;
+}
+
 .main {
   width:100%;
   height:100vh;
