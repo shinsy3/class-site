@@ -105,7 +105,7 @@ input[type="checkbox"]{
   -webkit-appearance: none;
   appearance: none;
   background-color: #fed8bd;
-  height: 80px;
+  height: 30px;
   width: 5px;
   position: absolute;
   top: 96px;
@@ -178,6 +178,15 @@ input[type="checkbox"]:after{
   .light {
     opacity: 0.5;
   }
+
+  input[type="checkbox"] {
+    top: 96px;
+    height: 50px;
+  }
+
+  input[type="checkbox"]:after{
+    bottom: -2px;
+  }
 }
 
 
@@ -186,7 +195,7 @@ input[type="checkbox"]:after{
 
   .container {
     position: fixed;
-    width:90%;
+    max-width:95vw;
     display: flex;
     justify-content: center;
   }
@@ -204,5 +213,14 @@ input[type="checkbox"]:after{
 
   .light {
     opacity: .9;
+  }
+
+  input[type="checkbox"] {
+    top: 96px;
+    height: 80px;
+  }
+
+  input[type="checkbox"]:after{
+    bottom: -2px;
   }
 }
